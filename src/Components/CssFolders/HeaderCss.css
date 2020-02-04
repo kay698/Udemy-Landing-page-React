@@ -1,10 +1,10 @@
 .header{
     display: flex;
-    width : 100%;
+    max-width : 100%;
     height: 8vh;
     justify-content: space-evenly;
     align-items: center;
-    font-size : 12px;
+    font-size : 13px;
     background:white;
     text-transform: capitalize;
     margin-left:  30px;
@@ -12,7 +12,7 @@
 }
 
 .category-section{
-    opacity: 0.7;
+    opacity: 0.6;
     padding : 14px;
     
 }
@@ -20,21 +20,21 @@
     margin-left : 4px;
 }
 .category-section:hover{
-    opacity : 10;
-    background: #f3f3f3; 
-    border : 1px solid #f3ebeb;
-    border-radius : 1px;
+    background: #eeeeee; 
+    border : 1px solid #e2dddd;
+    border-radius : 2px;
 }
 
 .header-input-section{
     display:flex;
     border-radius: 3px;
     width:35%;
-    height: 6vh;
-    /* background: #f0f0f0; */
+    height: 5vh;
     justify-content: space-between;
     align-items: center;
     border: 1px solid #d8caca;
+    background: #eeeeee; 
+    margin-left: -10px;
 }
 .header-input-tag {
     width : 92%;
@@ -44,6 +44,7 @@
     margin-left : 15px;
     font-size: 14px;
     color: #666;
+    background: #f0f0f0;
 }
 
 .search-icon-div{
@@ -70,23 +71,25 @@
     padding: 15px 15px;
     font-weight: 300;
     font-size : 12px;
+    margin-left : -20px;
 
 }
 .header-links:hover{
-    background: #f3f3f3;
-    border : 1px solid #f3ebeb;
+    background: #eeeeee; 
+    border : 1px solid #e2dddd;
     border-radius: 1px;
 }
 .teach-link{
-    margin-left: -25px;
+    margin-left: -35px;
 }
 .cart-sign-log-section{
     display: flex;
     width : 20%;
-    height : 90%;
+    height : 70%;
     align-items: center;
     justify-content: space-around;
     border-left: 1px solid #c5c2c2;
+    margin-left: -30px;
     
 }
 .log-in{
@@ -95,6 +98,7 @@
     text-decoration: none;
     border : 1px solid #666;
     border-radius: 3px;
+    margin-left: -75px;
 
 }
 .log-in:hover{
@@ -107,7 +111,7 @@
     text-decoration: none;
     background: rgb(218, 33, 42);
     border-radius: 3px;
-    margin-left: -30px;
+    margin-left: -90px;
 
 }
 .sign-up:hover{
@@ -115,8 +119,10 @@
 }
 .shopping-cart-div{
     padding: 12px 15px ;
+    margin-left : -30px;
 }
 .shopping-cart-div:hover{
-    background: #e2dfdf;
+    background: #eeeeee; 
+    border : 1px solid #e2dddd;
     border-radius : 50%;
 }
