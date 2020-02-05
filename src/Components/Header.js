@@ -35,7 +35,7 @@ class Header extends Component {
         </a>
         <div className = "cart-sign-log-section">
           <div className = "shopping-cart-div">
-             <img src={shoppingCart} className="shopping-cart" alt="shopping-cart" />
+             <img src={shoppingCart} className="shopping-cart" alt="shopping-cart" style = {{opacity : 0.4}} />
           </div>
           <a href="#" className="log-in registration-links" >Log in</a>
           <a href="#" className="sign-up registration-links" >Sign up</a>

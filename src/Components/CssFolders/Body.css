@@ -25,7 +25,7 @@
     display:flex;
     border-radius: 3px;
     width:29%;
-    height: 6vh;
+    height: 7vh;
     justify-content: space-between;
     align-items: center;
     background: #eeeeee; 
@@ -37,7 +37,8 @@
     border-radius: 5px;
     border : none;
     margin-left : 15px;
-    font-size: 14px;
+    font-size: 20px;
+    font-weight: 100;
     color: #666;
     background: #f0f0f0;
 }
